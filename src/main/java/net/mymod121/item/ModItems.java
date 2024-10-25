@@ -1,6 +1,7 @@
 package net.mymod121.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -21,6 +22,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(SUS_ITEM);
         });
+        //FuelRegistry.INSTANCE.add(ModItems.GUIDITE_SWORD, 30 * 20);
+        FuelRegistry.INSTANCE.add(ModItems.SUS_ITEM, 30 *20);
+
     }
 
 }

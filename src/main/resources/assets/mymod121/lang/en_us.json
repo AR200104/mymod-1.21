@@ -1,3 +1,4 @@
 {
-  "item.mymod121.sus_item" : "Sus item"
+  "item.mymod121.sus_item" : "Sus Item",
+  "block.mymod121.sus_block": "Sus Block"
 }

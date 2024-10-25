@@ -2,6 +2,7 @@ package net.mymod121;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mymod121.block.ModBlocks;
 import net.mymod121.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +21,7 @@ public class MyMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		//LOGGER.info("Hello Fabric world!");
 	}
 }
