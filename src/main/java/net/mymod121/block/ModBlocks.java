@@ -14,7 +14,7 @@ import net.mymod121.MyMod;
 
 public class ModBlocks {
     public static void initialize() {};
-    public static final Block SUS_BLOCK = registerBlock(new Block(AbstractBlock.Settings.create()),
+    public static final Block SUS_BLOCK = registerBlock(new Block(AbstractBlock.Settings.create().strength(6, 7)),
             "sus_block", true);
 
     public static Block registerBlock(Block block, String name, boolean shouldRegisterItem) {
@@ -32,9 +32,12 @@ public class ModBlocks {
     }
     public static void registerModBlocks() {
         MyMod.LOGGER.info("Registering Mod Blocks for " + MyMod.MOD_ID);
+        /*
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(itemGroup -> {
             itemGroup.add(ModBlocks.SUS_BLOCK);
         });
+
+         */
     }
 
 }
