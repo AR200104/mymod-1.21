@@ -2,5 +2,7 @@
   "item.mymod121.sus_item" : "Verdächtiger Gegenstand",
   "block.mymod121.sus_block": "Verdächtiger Block",
   "itemgroup.mymod121.sus_blocks": "Verdächtige Blöcke",
-  "itemgroup.mymod121.sus_items": "Verdächitge Gegenstände"
+  "itemgroup.mymod121.sus_items": "Verdächitge Gegenstände",
+  "itemTooltip.mymod121.sus_item": "Macht verdächtige Sachen",
+  "item.mymod121.sus_stick": "Verdächtiger Stock"
 }

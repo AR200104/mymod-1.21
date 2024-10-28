@@ -20,6 +20,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.mymod121.sus_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SUS_ITEM);
+                        entries.add(ModItems.SUS_STICK);
                         //entries.add(Mod.SUS_ORE);
                     }).build());
 
