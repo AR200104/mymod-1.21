@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mymod121:item/tools_0_small"
+    "layer0": "mymod121:item/sus_sword"
   }
 }

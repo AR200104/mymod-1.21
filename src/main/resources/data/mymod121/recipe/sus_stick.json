@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "pattern": [
     " # ",
     " # ",
-    " # "
+    " X "
   ],
   "key": {
     "#": {
-      "item": "mymod121:sus_block"
+      "item": "mymod121:sus_ingot"
     }
   },
   "result": {
     "count": 1,
-    "id": "mymod121:sus_stick"
+    "id": "mymod121:sus_sword"
   }
 }

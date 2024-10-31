@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sus_ingot",
+  "ingredients": [
+    {
+      "item": "mymod121:sus_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "mymod121:sus_ingot"
+  }
+}
