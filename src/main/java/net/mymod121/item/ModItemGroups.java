@@ -21,6 +21,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SUS_ITEM);
                         entries.add(ModItems.SUS_STICK);
+                        entries.add(ModItems.SUS_INGOT);
+                        entries.add(ModItems.SUS_SWORD);
                         //entries.add(Mod.SUS_ORE);
                     }).build());
 

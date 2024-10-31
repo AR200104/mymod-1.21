@@ -7,6 +7,8 @@ import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
 public class SusMaterial implements ToolMaterial {
+    public static final SusMaterial INSTANCE = new SusMaterial();
+
     @Override
     public int getDurability() {
         return 1200;
@@ -19,7 +21,7 @@ public class SusMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 2.5f;
+        return 3.0f;
     }
 
     @Override
@@ -34,6 +36,6 @@ public class SusMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return Ingredient.ofItems(ModItems.SUS_INGOT);
     }
 }

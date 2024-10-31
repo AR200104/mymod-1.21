@@ -4,5 +4,7 @@
   "itemgroup.mymod121.sus_blocks": "Sus Blocks",
   "itemgroup.mymod121.sus_items": "Sus Items",
   "itemTooltip.mymod121.sus_item": "does sussy stuff",
-  "item.mymod121.sus_stick": "Sus Stick"
+  "item.mymod121.sus_stick": "Sus Stick",
+  "item.mymod121.sus_ingot": "Sus ingot",
+  "itemTooltip.mymod121.sus_ingot": "Mega Sus"
 }

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "mymod121:sus_item"
+  },
+  "result": "minecraft:sus_ingot",
+  "experience": 0.15,
+  "cookingtime": 300
+}
+
