@@ -23,7 +23,10 @@ public class ModItemGroups {
                         entries.add(ModItems.SUS_STICK);
                         entries.add(ModItems.SUS_INGOT);
                         entries.add(ModItems.SUS_SWORD);
-                        //entries.add(Mod.SUS_ORE);
+                        entries.add(ModItems.SUS_HELMET);
+                        entries.add(ModItems.SUS_CHESTPLATE);
+                        entries.add(ModItems.SUS_LEGGINGS);
+                        entries.add(ModItems.SUS_BOOTS);
                     }).build());
 
     public static final ItemGroup SUS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
