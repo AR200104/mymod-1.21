@@ -1,0 +1,4 @@
+- add missing textures (armor)
+- add tools
+- adjust loot_table
+- ore generation
