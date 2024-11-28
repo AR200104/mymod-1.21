@@ -35,6 +35,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.mymod121.sus_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SUS_BLOCK);
+                        entries.add(ModBlocks.SUS_ORE);
                     }).build());
 
 

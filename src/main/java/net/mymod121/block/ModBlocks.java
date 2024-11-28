@@ -14,8 +14,10 @@ import net.mymod121.MyMod;
 
 public class ModBlocks {
     public static void initialize() {};
-    public static final Block SUS_BLOCK = registerBlock(new Block(AbstractBlock.Settings.create().strength(6, 7)),
+    public static final Block SUS_BLOCK = registerBlock(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.GLASS).strength(6, 7)),
             "sus_block", true);
+    public static final Block SUS_ORE = registerBlock(new SusOre(AbstractBlock.Settings.create().strength(6, 7)),
+            "sus_ore", true);
 
     public static Block registerBlock(Block block, String name, boolean shouldRegisterItem) {
         // Register the block and its item.
